@@ -1,0 +1,50 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+readme/
+
+# Environment Variables and Sensitive Files
+.env
+
+# Jupyter Notebooks
+trial.ipynb
+
+# Python Cache Files
+__pycache__/
+**/__pycache__/
+
+# Git Metadata
+.git/
+**/.git/
+
+# Github Readme Generator Folder
+Github-Readme-Generator/
+
+# Python Cache and Compiled Files
+*.py[cod]
+*.class
+.Python
+*.pyc
+
+# Python Distribution/Packaging
+dist/
+build/
+*.egg-info/
+
+# IDE Settings (Optional)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Ensure README.md is NOT excluded
+# README.md
