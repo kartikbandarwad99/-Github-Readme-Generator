@@ -79,3 +79,5 @@ summaries = summarize_repository(repo_structure,summarizer=summarizer_model)
 readme_generator = ReadmeGenerator()
 readme_sample = readme_generator.generate_readme(summaries=summaries)
 print(readme_sample.content)
+# with open('README.md', 'w', encoding='utf-8') as f:
+#     f.write(readme_sample.content)
